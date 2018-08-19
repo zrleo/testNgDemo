@@ -1,0 +1,68 @@
+<AllStepParameters>
+   <StepParameter ID="Test01" Name="Test01" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%is_quote" Value="0"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="0"/>
+        <parameter Key="DifferentPeoplePostOrReply" Value=""/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test02" Name="Test02" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/get_comments"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%perpage" Value="20"/>
+        <parameter Key="%order" Value="0"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="getCommentOrBroadcasts" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="landOwnerInfo" Value="select l.uid,l.title,l.nickname,l.rid,u.avatar
+                   from live_resource l
+                   join live_user u
+                   on u.uid=l.uid
+                   where l.tid="/> 
+        <parameter Key="commentInfo" Value="SELECT h.rid,h.cid,h.uid,h.content,h.replycid,h.is_quote,h.update_time,h.`status`,h.nickname,live_user.avatar 
+                   from live_user 
+                   join (SELECT live_resource.rid,live_comment.cid,live_comment.uid,live_comment.content,live_comment.replycid,live_comment.is_quote,live_comment.update_time,live_comment.`status`,live_comment.nickname from live_resource 
+                   join live_comment on live_resource.rid=live_comment.rid
+                   where live_resource.tid='TID' and  live_comment.type='0' and (live_comment.`status` not like '3')
+                   ORDER BY live_comment.update_time desc,live_comment.cid desc
+                   LIMIT PERPAGE)h
+                   on h.uid=live_user.uid"/>
+        <parameter Key="replyInfo" Value="SELECT c.rid,c.cid,c.uid,c.content,c.replycid,c.is_quote,c.update_time,c.`status`,c.nickname,u.avatar from live_comment c 
+                   JOIN live_user u on u.uid=c.uid where cid='CID'"/>  
+        <parameter Key="attachmentInfo" Value="select aid,url from live_attachment where uid='UID' and cid='CID' ORDER BY aid asc"/>
+     </Parameters>
+    </StepParameter>      
+</AllStepParameters>  

@@ -1,0 +1,30 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.live.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01CheckComment" Name="Test01CheckCommentNoUpdate">
+    	<Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02CheckComment" Name="Test02CheckCommentWIthMultiUpdate">
+    	<Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03CheckComment" Name="Test03PostDeleteAndCheckComment">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test09"/>
+    	<Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test04CheckComment" Name="Test04PostDeleteAndCheckBroadcast">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test10"/>
+    	<Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+    <TestCase ID="Test05CheckComment" Name="Test05PostDeleteAndCheckBroadcast_QuoteLandOwnerAfterDeleteHisContent">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test18"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test11"/>
+    	<Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+</AllTestCases>

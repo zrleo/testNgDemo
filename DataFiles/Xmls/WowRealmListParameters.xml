@@ -1,0 +1,21 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01WowRealmList_NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>  	
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02WowRealmList_Login" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        	
+     </Parameters>
+    </StepParameter>
+    
+    
+            
+</AllStepParameters>  

@@ -1,0 +1,102 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01WowCharacterAdd_NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>  	
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02WowCharacterAdd_Login" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="realm_name" Value="风暴之怒"/> 
+        <parameter Key="character_name" Value="好龙的小叶公"/>    
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03WowCharacterAdd_NotExistRealm" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        <parameter Key="realm_name" Value="asd123"/>
+        <parameter Key="character_name" Value="好龙的小叶公"/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04WowCharacterAdd_NoCharacterRealm" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="realm_name" Value="123"/>
+        <parameter Key="character_name" Value="好龙的小叶公"/>   
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05WowCharacterAdd_NoExistCharacter" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="realm_name" Value="123"/>
+        <parameter Key="character_name" Value="dsjdjk"/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test06" Name="Test06WowCharacterAdd_NoCharacter" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>
+        <parameter Key="realm_name" Value="123"/>   
+        <parameter Key="character_name" Value="123"/> 
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test07" Name="Test07WowCharacterAdd_AllParamNoExist" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="realm_name" Value="asd123"/> 
+        <parameter Key="character_name" Value="asd123"/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test08" Name="Test08WowCharacterAdd_AllParamNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="realm_name" Value=""/> 
+        <parameter Key="character_name" Value=""/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test09" Name="Test09WowCharacterAdd_RemoveAdd" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="wc_id" Value="1"/> 
+        <parameter Key="realm_name" Value="风暴之怒"/> 
+        <parameter Key="character_name" Value="给护十分"/>  
+            
+     </Parameters>
+    </StepParameter>
+    
+    
+    
+            
+</AllStepParameters>  

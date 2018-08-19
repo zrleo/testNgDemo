@@ -1,0 +1,17 @@
+<AllTestCases>
+	<StepParametersFilePath>SyncFavorForumParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.forum.steps.</StepAssembly>
+    <StepGroup>SyncFavorForumSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginSyncFavorForum">
+        <Step StepName="syncFavorForum" StepParameterID="Test01"/>
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginSyncFavorForum">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+        <Step StepName="syncFavorForum" StepParameterID="Test02"/>
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03FidlistNull">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+        <Step StepName="syncFavorForum" StepParameterID="Test03"/>
+    </TestCase>
+    
+</AllTestCases>

@@ -1,0 +1,93 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01WowGuildRanking_NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>  	
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02WowGuildRanking_Login" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03WowGuildRanking_NotExistRankingType" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="ranking_type" Value="asd123"/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04WowGuildRanking_NoExistRealmId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="realm_id" Value="0"/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05WowGuildRanking_NoExistPage" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="page" Value="0"/> 
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test06" Name="Test06WowGuildRanking_Page" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>
+        <parameter Key="realm_id" Value="0"/> 
+        <parameter Key="ranking_type" Value="raid"/>   
+        <parameter Key="page" Value="2"/> 
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test07" Name="Test07WowGuildRanking_NoExistBossId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="boss_id" Value="2"/> 
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test08" Name="Test08WowGuildRanking_RealmIdNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="realm_id" Value=""/> 
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test09" Name="Test09WowGuildRanking_RankingTypeNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+        <parameter Key="ranking_type" Value=""/> 
+            
+     </Parameters>
+    </StepParameter>
+    
+    
+            
+</AllStepParameters>  

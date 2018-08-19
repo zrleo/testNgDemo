@@ -1,0 +1,21 @@
+<AllTestCases>
+	<StepParametersFilePath>LoginParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.sdk.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01" Name="Test01login">
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02" Name="Test02login">
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03" Name="Test03login">
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test04" Name="Test04login">
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05login">
+        <Step StepName="register" StepGroup="RegisterSteps"  StepParameterID="Test05"/> 
+        <Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test05"/>       
+    </TestCase>
+</AllTestCases>

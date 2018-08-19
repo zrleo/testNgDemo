@@ -1,0 +1,162 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="2.jpg"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test02" Name="Test02" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="3.png"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test03" Name="Test03" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="4.bmp"/>
+        <parameter Key="code" Value="406"/>
+        <parameter Key="msg" Value="上传失败"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test04" Name="Test04" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="5.jpeg"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test05" Name="Test05" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="6.gif"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test06" Name="Test06" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="9.PNG"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test07" Name="Test07" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="8.JPG"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test08" Name="Test08" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="10.JPEG"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test09" Name="Test09" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/upload"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="Filedata" Value="D:\\Work\\ServerSide_InterfaceTest\\NGA\\Nga_Maven\\DataFiles\\picPath\\"/>
+        <parameter Key="picName" Value="7.GIF"/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/> 
+     </Parameters>
+    </StepParameter>  
+</AllStepParameters>  

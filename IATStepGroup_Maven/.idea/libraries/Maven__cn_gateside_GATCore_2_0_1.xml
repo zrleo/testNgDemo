@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.gateside:GATCore:2.0.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/gateside/GATCore/2.0.1/GATCore-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/gateside/GATCore/2.0.1/GATCore-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/gateside/GATCore/2.0.1/GATCore-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

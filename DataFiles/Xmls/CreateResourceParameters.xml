@@ -1,0 +1,15 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/create_resource"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%title" Value="1234567891q2w3e"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%nickname" Value=""/>
+        <parameter Key="%tid" Value=""/>
+        <parameter Key="%content" Value=""/>
+     </Parameters>
+    </StepParameter>    
+</AllStepParameters>  

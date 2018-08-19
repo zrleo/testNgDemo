@@ -1,0 +1,35 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.live.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01delUnExist" Name="Test01delUnExist">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02deleteBroadcast" Name="Test02deleteBroadcast">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03deleteRandomComment" Name="Test03deleteRandomComment">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test04DeleteOther" Name="Test04DeleteOtherBroadcast">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+    <TestCase ID="Test05DeleteOther" Name="Test05DeleteOtherComment">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test05"/>		
+    </TestCase>
+    <TestCase ID="Test06Delete" Name="Test06DeleteSameCommentTwice">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test06"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test08"/>		
+    </TestCase>
+    <TestCase ID="Test07Delete" Name="Test07DeleteSameBroadcastTwice">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test07"/>
+    	<Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test08"/>		
+    </TestCase>
+</AllTestCases>

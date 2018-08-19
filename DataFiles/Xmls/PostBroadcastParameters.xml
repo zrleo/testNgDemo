@@ -1,0 +1,802 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01replyLandOwner" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193332
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test02reply260" Name="Test02reply260" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%is_quote" Value="0"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/> 
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>       
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test03quote260" Name="Test03quote260" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/> 
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>       
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test04senstiveWord" Name="Test04senstiveWord" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value="jijijijijiSensitiveWordjiSensortiveWord"/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/> 
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>       
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test05senstiveWord" Name="Test05senstiveWord" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value="jijijijijiSensitiveWordjiSensortiveWord"/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="410"/>
+        <parameter Key="msg" Value="非楼主不能发直播"/>    
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test06quoteLandOwner" Name="Test06quoteLandOwner" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test07QuoteLandOwnerUploadJpg" Name="Test07QuoteLandOwnerUploadJpg" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>     
+    <StepParameter ID="Test08QuoteLandOwnerUploadPng" Name="Test08QuoteLandOwnerUploadPng" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test09QuoteLandOwnerUploadPng" Name="Test09QuoteLandOwnerUploadPng" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test10QuoteLandOwnerUploadPng" Name="Test10QuoteLandOwnerUploadPng" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test11QuoteLandOwnerUploadJPG" Name="Test11QuoteLandOwnerUploadJPG" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>     
+    <StepParameter ID="Test12QuoteLandOwnerUploadPNG" Name="Test08QuoteLandOwnerUploadPNG" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test13QuoteLandOwnerUploadJPEG" Name="Test09QuoteLandOwnerUploadJPEG" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test14QuoteLandOwnerUploadGIF" Name="Test14QuoteLandOwnerUploadGIF" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value="254"/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%aid" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>  
+        <parameter Key="aidInfo" Value="select * from live_attachment ORDER BY aid desc limit 1"/>                 
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test15" Name="Test15" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value="jijijijijiSensitiveWordjiSensortiveWord"/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193282
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test16" Name="Test16" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value="jijijijijiSensitiveWordjiSensortiveWord"/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="418"/>
+        <parameter Key="msg" Value="内容重复"/>               
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test17" Name="Test17" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value="!@##$EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEOOOOOOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ"/>
+        <parameter Key="%replycid" Value="260"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="414"/>
+        <parameter Key="msg" Value="内容过长"/>                 
+     </Parameters>
+    </StepParameter> 
+
+    <StepParameter ID="Test18" Name="Test18replyLandOwner" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value="1"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193333
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>     
+    <StepParameter ID="Test19" Name="Test19NotDeleteLandOwnerContentNoQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193332
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test20" Name="Test20DeleteLandOwnerContentNoQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193333
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>     
+    <StepParameter ID="Test21" Name="Test21NotDeleteLandOwnerContentWithQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193332
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test22" Name="Test22DeleteLandOwnerContentWithQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193333
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test23" Name="Test23ReplyDeleteLandOwnerContentNoQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="405"/>
+        <parameter Key="msg" Value="内容不存在"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="replyJustDeleted" Value=""/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193332
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test24" Name="Test24ReplyDeleteLandOwnerContentNoQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="405"/>
+        <parameter Key="msg" Value="内容不存在"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+        <parameter Key="replyJustDeleted" Value=""/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193333
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>     
+    <StepParameter ID="Test25" Name="Test25ReplyDeleteLandOwnerContentWithQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="405"/>
+        <parameter Key="msg" Value="内容不存在"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+                <parameter Key="replyJustDeleted" Value=""/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193332
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test26" Name="Test26ReplyDeleteLandOwnerContentWithQuote" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/post_broadcast"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%content" Value=""/>
+        <parameter Key="%replycid" Value=""/>
+        <parameter Key="%is_quote" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="405"/>
+        <parameter Key="msg" Value="内容不存在"/>
+        <parameter Key="cid" Value=""/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="type" Value="1"/>
+                <parameter Key="replyJustDeleted" Value=""/>
+        <parameter Key="sqlInfo" Value="select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   order by cid desc
+                   LIMIT 1"/>  
+        <parameter Key="dbInfo" Value="SELECT live_resource.tid,live_resource.rid,lc.cid,lc.uid,lc.nickname,lc.content,lc.replycid,lc.is_quote,lc.type
+                   from live_resource
+                   join (select cid,rid,uid,nickname,content,replycid,is_quote,type
+                   from live_comment
+                   )lc on live_resource.rid=lc.rid
+                   where live_resource.tid=7193333
+                   order by lc.cid desc
+                   LIMIT 1"/>                  
+     </Parameters>
+    </StepParameter>        
+</AllStepParameters>  

@@ -1,0 +1,57 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginAddBlock" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>	
+        <parameter Key="msg" Value="未登录"/>		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginAddBlockFixedUid" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        <parameter Key="uid" Value="26443717"/>
+        <parameter Key="code" Value="10"/>	
+        <parameter Key="msg" Value="已经屏蔽了用户"/> 		
+     </Parameters>
+	 </StepParameter>
+	 <StepParameter ID="Test03" Name="Test03LoginAddBlockRandomUid" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 		
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test04" Name="Test04AddSameBlockTwice" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>  		
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05AddDiffBlockMore" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        
+        <parameter Key="password" Value="123456q"/>  		
+     </Parameters>
+    </StepParameter>
+	
+	<StepParameter ID="Test06" Name="Test06AddOwnerBlock" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="uid" Value="26228182"/>   		
+     </Parameters>
+    </StepParameter>
+  	
+            
+</AllStepParameters>

@@ -1,0 +1,91 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01AccountFack" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="-522679"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="code" Value="47"/>
+        <parameter Key="msg" Value="帐号权限不足"/>
+
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test02" Name="Test02LoginRandfid" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="wenly1208@163.com"/>
+        <parameter Key="password" Value="qwer1234"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="subject" Value="1234567891q2w3e"/>
+        <parameter Key="content" Value="iei38s8399e0"/>
+        <parameter Key="latitude" Value="40"/>
+        <parameter Key="longitude" Value="116"/>
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test03" Name="Test03StableContent" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="subject" Value="1234567891q2w3e"/>
+        <parameter Key="content" Value="iei38s8399e0"/>
+        <parameter Key="fid" Value="-7"/>
+        <parameter Key="address" Value="40"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test04" Name="Test04AddressNotNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="-7"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="address" Value="116,40"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test05" Name="Test05NotLogin" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="fid" Value="-7"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="code" Value="12"/>
+        <parameter Key="msg" Value="未登录"/>
+
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test06" Name="Test06VideoAttachments" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="attachments" Value="12.mp4"/>
+        <parameter Key="address" Value="116,40"/>
+
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test07" Name="Test07AudioAttachments" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="attachments" Value="11.mp3"/>
+        <parameter Key="address" Value="116,40"/>
+
+     </Parameters>
+    </StepParameter> 
+
+</AllStepParameters>  

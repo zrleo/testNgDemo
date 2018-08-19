@@ -1,0 +1,56 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginMessageList" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="page" Value=""/>
+		<parameter Key="code" Value="1"/>
+		<parameter Key="msg" Value="你必须先登录论坛"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginPageNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>		
+        <parameter Key="page" Value=""/> 	
+     </Parameters>
+	 </StepParameter>
+	 <StepParameter ID="Test03" Name="Test03LoginPageNotNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="page" Value="1"/>		
+     </Parameters>
+    </StepParameter>
+	<StepParameter ID="Test04" Name="Test04LoginNotMessage" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>	
+     </Parameters>
+    </StepParameter>
+	<StepParameter ID="Test05" Name="Test05LoginPageNoExist" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="page" Value="10"/>		
+     </Parameters>
+    </StepParameter>
+	<StepParameter ID="Test06" Name="Test06LoginPageZero" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="page" Value="0"/>		
+     </Parameters>
+    </StepParameter>
+ 
+    
+            
+</AllStepParameters>  

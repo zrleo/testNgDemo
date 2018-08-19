@@ -1,0 +1,37 @@
+<AllTestCases>
+	<StepParametersFilePath>DeleteFavorForumParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.forum.steps.</StepAssembly>
+    <StepGroup>DeleteFavorForumSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginDelFavorForum">
+	    <Step StepName="addFavorForum" StepGroup="AddFavorForumSteps" StepParameterID="Test01"/>
+        <Step StepName="deleteFavorForum" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginDelFavorForum">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="addFavorForum" StepGroup="AddFavorForumSteps" StepParameterID="Test02"/>
+        <Step StepName="deleteFavorForum" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03DelNotAddForum">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+        <Step StepName="deleteFavorForum" StepParameterID="Test03"/>
+       		
+    </TestCase>
+	<TestCase ID="Test04" Name="Test04DelSameForumTwice">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+	    <Step StepName="addFavorForum" StepGroup="AddFavorForumSteps" StepParameterID="Test04"/>
+        <Step StepName="deleteFavorForum" StepParameterID="Test04"/>
+		<Step StepName="deleteFavorForum" StepParameterID="Test04"/>
+       		
+    </TestCase>
+	<TestCase ID="Test05" Name="Test05DelMoreDiffForum">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+	    <Step StepName="addFavorForum" StepGroup="AddFavorForumSteps" StepParameterID="Test05"/>
+        <Step StepName="deleteFavorForum" StepParameterID="Test05"/>
+		<Step StepName="addFavorForum" StepGroup="AddFavorForumSteps" StepParameterID="Test05"/>
+        <Step StepName="deleteFavorForum" StepParameterID="Test05"/>
+       		
+    </TestCase>
+    
+</AllTestCases>

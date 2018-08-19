@@ -1,0 +1,8 @@
+<GlobalParameters>
+          <Parameters>
+          <parameter Key="url" Value="http://iyouxi.baidu.com/sso/register/invite/quick_reg.json"/>
+          <parameter Key="httpmethod" Value="GET"/>   
+          <parameter Key="$password" Value="111111"/>
+          <parameter Key="$rePassword" Value="111111"/>
+          </Parameters>
+</GlobalParameters>

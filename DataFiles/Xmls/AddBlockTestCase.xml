@@ -1,0 +1,35 @@
+<AllTestCases>
+	<StepParametersFilePath>AddBlockParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.message.steps.</StepAssembly>
+    <StepGroup>AddBlockSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginAddBlock">
+	    <Step StepName="addBlock" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginAddBlockFixedUid">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="addBlock" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03LoginAddBlockRandomUid">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+	    <Step StepName="addBlock" StepParameterID="Test03"/>
+       		
+    </TestCase>
+	<TestCase ID="Test04" Name="Test04AddSameBlockTwice">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+	    <Step StepName="addBlock" StepParameterID="Test04"/>
+       		
+    </TestCase>
+	<TestCase ID="Test05" Name="Test05AddDiffBlockMore">
+	    <Step StepName="register" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="RegisterSteps"  StepParameterID="Test05"/>		
+	    <Step StepName="addBlock" StepParameterID="Test05"/>
+       		
+    </TestCase>
+	<TestCase ID="Test06" Name="Test06AddOwnerBlock">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test06"/>
+	    <Step StepName="addBlock" StepParameterID="Test06"/>
+       		
+    </TestCase>
+    
+</AllTestCases>

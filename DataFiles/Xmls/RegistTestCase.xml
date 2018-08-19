@@ -1,0 +1,17 @@
+<AllTestCases>
+	<StepParametersFilePath>RegistParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.sdk.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01" Name="Test01FixedPasswordRegist">
+    	<Step StepName="register" StepGroup="RegisterSteps"  StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02" Name="Test02RandomRegist">
+    	<Step StepName="register" StepGroup="RegisterSteps"  StepParameterID="Test02"/>		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test02SameEmailRegist">
+    	<Step StepName="register" StepGroup="RegisterSteps"  StepParameterID="Test03"/>		
+    </TestCase>
+	<TestCase ID="Test04" Name="Test02SameNicknameRegist">
+    	<Step StepName="register" StepGroup="RegisterSteps"  StepParameterID="Test04"/>		
+    </TestCase>
+</AllTestCases>

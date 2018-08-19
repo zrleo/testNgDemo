@@ -1,0 +1,34 @@
+<AllTestCases>
+	<StepParametersFilePath>DelBlockParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.message.steps.</StepAssembly>
+    <StepGroup>DelBlockSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginDelBlock">
+	    <Step StepName="delBlock" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginDelBlockList">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+		<Step StepName="addBlock" StepGroup="AddBlockSteps" StepParameterID="Test02"/>
+	    <Step StepName="delBlock" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03DelNotExistBlock">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+	    <Step StepName="delNotExistAndSameBlock" StepParameterID="Test03"/>
+     
+    </TestCase>
+	<TestCase ID="Test04" Name="Test04DelSameBlockTwice">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+		<Step StepName="addBlock" StepGroup="AddBlockSteps" StepParameterID="Test04"/>
+	    <Step StepName="delBlock" StepParameterID="Test04"/>
+       	<Step StepName="delNotExistAndSameBlock" StepParameterID="Test04"/>	
+    </TestCase>
+	<TestCase ID="Test05" Name="Test05DelDiffBlockMore">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+		<Step StepName="addBlock" StepGroup="AddBlockSteps" StepParameterID="Test05"/>
+	    <Step StepName="delBlock" StepParameterID="Test05"/>
+       	<Step StepName="addBlock" StepGroup="AddBlockSteps" StepParameterID="Test05"/>
+	    <Step StepName="delBlock" StepParameterID="Test05"/>	
+    </TestCase>
+    
+</AllTestCases>

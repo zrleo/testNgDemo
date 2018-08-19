@@ -1,0 +1,11 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.live.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01CheckLive" Name="Test01CheckLiveExist">
+    	<Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02CheckLive" Name="Test02CheckLiveNotExist">
+    	<Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+</AllTestCases>

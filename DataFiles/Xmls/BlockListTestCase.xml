@@ -1,0 +1,24 @@
+<AllTestCases>
+	<StepParametersFilePath>BlockListParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.message.steps.</StepAssembly>
+    <StepGroup>BlockListSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginBlockList">
+	    <Step StepName="blockList" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginBlockList">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="blockList" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03BlockListNotNull">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+	    <Step StepName="blockList" StepParameterID="Test03"/>
+       		
+    </TestCase>
+	<TestCase ID="Test04" Name="Test04BlockListNull">
+	    <Step StepName="register" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="RegisterSteps"  StepParameterID="Test04"/>	
+	    <Step StepName="blockList" StepParameterID="Test04"/>	
+    </TestCase>
+    
+</AllTestCases>

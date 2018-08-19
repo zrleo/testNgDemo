@@ -1,0 +1,34 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginBlockList" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>	
+        <parameter Key="msg" Value="未登陆"/>		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginBlockList" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 		
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test03" Name="Test03BlockListNotNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>  		
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04BlockListNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+     	 		
+     </Parameters>
+    </StepParameter>	
+            
+</AllStepParameters>  

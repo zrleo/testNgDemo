@@ -1,0 +1,32 @@
+<AllTestCases>
+	<StepParametersFilePath>WowRaidListParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.wow.steps.</StepAssembly>
+    <StepGroup>WowRaidListSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01WowRaidList_NotLogin">
+	    <Step StepName="wowRaidList" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	 <TestCase ID="Test02" Name="Test02WowRaidList_Login">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="wowRaidList" StepParameterID="Test02"/>
+       		
+    </TestCase>
+    <TestCase ID="Test03" Name="Test03WowRaidList_NotExistType">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+      <Step StepName="wowRaidList" StepParameterID="Test03"/>
+          
+    </TestCase>
+    <TestCase ID="Test04" Name="Test04WowRaidList_RangeoutType">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+      <Step StepName="wowRaidList" StepParameterID="Test04"/>
+          
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05WowRaidList_NoNumberType">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+      <Step StepName="wowRaidList" StepParameterID="Test05"/>
+          
+    </TestCase>
+    
+	
+    
+</AllTestCases>

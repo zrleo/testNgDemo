@@ -1,0 +1,20 @@
+<AllTestCases>
+	<StepParametersFilePath>PostTitletypeParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.post.steps.</StepAssembly>
+    <StepGroup>PostTitletypeSteps</StepGroup>
+    <TestCase ID="Test01AccountFack" Name="Test01AccountFack">
+    	<Step StepName="postTitletype" StepGroup="PostTitletypeSteps" StepParameterID="Test01"/>	
+    </TestCase>
+    <TestCase ID="Test02LoginRandfid" Name="Test02LoginRandfid">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+    	<Step StepName="postTitletype" StepGroup="PostTitletypeSteps" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test03StableContent" Name="Test03StableContent">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps"  StepParameterID="Test03"/>
+    	<Step StepName="postTitletype" StepGroup="PostTitletypeSteps" StepParameterID="Test01"/>	
+    
+    </TestCase>
+    
+    
+    
+</AllTestCases>

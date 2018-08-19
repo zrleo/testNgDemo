@@ -1,0 +1,82 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="pid" Value="0"/>
+        <parameter Key="code" Value="12"/>
+        <parameter Key="msg" Value="未登录"/>
+    
+
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test02" Name="Test02LoginRandTid" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="new"/>
+        <parameter Key="latitude" Value="40"/>
+        <parameter Key="longitude" Value="116"/>
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test03" Name="Test03StableContent" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="content" Value="iei38s8399e0"/>
+        <parameter Key="tid" Value="7194012"/>
+        <parameter Key="pid" Value="134080884"/>
+        <parameter Key="address" Value="40,116,北京市Array"/>
+        
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test04" Name="Test04AddressNotNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="tid" Value="7194012"/>
+        <parameter Key="pid" Value="134080915"/>
+        <parameter Key="address" Value="40.00311,116.4175,北京完美世界大厦"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test05" Name="Test05OnlyAuthorModify" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="tid" Value="7194056"/>
+        <parameter Key="code" Value="54"/>
+        <parameter Key="msg" Value="只有作者或版主可以修改内容"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test06" Name="Test06ModifyAddress" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="tid" Value="7194012"/>
+        <parameter Key="pid" Value="134080915"/>
+        <parameter Key="address" Value="40.00311,116.4175,北京完美世界大厦"/>
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test07" Name="Test07ModifyAuthorContent" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="tid" Value="7194012"/>
+     </Parameters>
+    </StepParameter>
+      
+</AllStepParameters>  

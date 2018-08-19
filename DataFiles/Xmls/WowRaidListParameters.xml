@@ -1,0 +1,50 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01WowRaidList_NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>  	
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02WowRaidList_Login" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03WowRaidList_NotExistType" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04WowRaidList_RangeoutType" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05WowRaidList_NoNumberType" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>
+   
+            
+     </Parameters>
+    </StepParameter>
+    
+    
+            
+</AllStepParameters>  

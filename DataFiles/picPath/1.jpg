@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<link rel="dns-prefetch" href="//p0.so.qhimg.com" />
+<link rel="dns-prefetch" href="//p1.so.qhimg.com" />
+<link rel="dns-prefetch" href="//p2.so.qhimg.com" />
+<link rel="dns-prefetch" href="//p3.so.qhimg.com" />
+<link rel="dns-prefetch" href="//p4.so.qhimg.com" />
+<title>加载中...</title>
+<link rel="stylesheet" href="http://s4.qhimg.com/!8fa87cf5/reset.css">
+<link rel="stylesheet" href="http://s7.qhimg.com/static/d90f625fac01fc19/channel/view.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit"> 
+<script>var TIME = {_: +new Date};</script>
+</head>
+<body><!-- lightbox -->
+
+
+<div id="jcopeLightBox" class="jcope_lightbox">
+    <div class="lb_wrapper">
+        <a class="lb_close" href="#closelightbox"></a>
+        <a class="lb_exitfullscreen" href="#" title="退出全屏模式"></a>
+        
+        <div class="lb_head">
+            <div class="lb_breadcrumbs" id="lbBreadcrumbs">
+                <a href="/">首页</a><span class="arrow">&gt;</span><a href="/z?ch=beauty">美女</a><span class="arrow">&gt;</span><a href="/z?ch=beauty&t1=600">车模</a>            </div>
+            <h3 class="lb_title" id="lbTitle"><a href="#" target="_blank"></a></h3>
+        </div>
+        
+        <div class="lb_body">
+            <div class="lb_imgbox">
+                <div class="lb_navigator">
+                    <a href="#" class="lb_navclose"></a>
+                    <div class="lb_navbox">
+                        <div class="lb_navmask"><div></div></div>
+                    </div>
+                </div>
+                <a href="#" class="lb_play" id="lbPlay"></a>
+                <div class="lb_tujietext"><div class="bg"></div><p></p></div>
+            </div>
+            <a href="#" class="lb_toggle lb_prev" id="lbPrev"><span>上一张</span></a>
+            <a href="#" class="lb_toggle lb_next" id="lbNext"><span>下一张</span></a>
+            <div class="lb_loading"></div>
+        </div>
+        
+        <div class="lb_toolbar">
+            <a href="#" class="img_refer" id="imgRefer" target="_blank"></a>
+            <ul class="lb_toolbarlist" id="lbToolbarList">
+                <li class="pnum"><span class="lb_pageation"><b class="lb_page_current">1</b>/<span class="lb_page_total">1</span></span></li>
+                <li class="thumb"><a href="#" class="lb_thumb_toggle lb_thumb_toggle_up" id="lbThumbToggle">显示缩略图</a></li>
+                <li><a href="#" class="lb_zoom lb_zoomin lb_zoom_disable" id="lbZoom">原始尺寸</a></li>
+                <li><a href="#" class="lb_fullscreen" id="lbFullscreen">全屏</a></li>
+                <li class="item_download">
+                    <a href="#" class="lb_download" target="_blank" id="lbDownload">下载</a>
+                    <ul class="sub_list download_list" id="downloadList"></ul>
+                </li>    
+                <li class="item_share" id="itemShare">
+                    <a href="javascript:;" class="lb_share">分享</a>
+                    <ul class="sub_list share_list" id="shareList">
+                        <li><a target="_blank" href="#" class="weibo" title="分享到 新浪微博">新浪微博</a></li>
+                        <li><a target="_blank" href="#" class="tweibo" title="分享到 腾讯微博">腾讯微博</a></li>
+                        <li><a target="_blank" href="#" class="qzone" title="分享到 QQ空间">QQ空间</a></li>
+                        <li><a target="_blank" href="#" class="renren" title="分享到 人人网">人人网</a></li>
+                        <li><a target="_blank" href="#" class="douban" title="分享到 豆瓣网">豆瓣网</a></li>
+                    </ul>
+                </li>
+                <li class="item_mdownload" id="itemMdownload"><a href="#" class="lb_mdownload" id="lbMdownload">发送到手机</a></li>
+                <li class="item_imgmeta" id="imgSize">1x1</li>
+                <li class="item_imgmeta" id="imgVal">0KB</li>
+                <li><a href="#" id="report" class="report" target="_blank">举报</a></li>
+                <li class="item_autoplay">
+                    <a href="javascript:;" class="lb_autoplay"></a>
+                    <ul class="sub_list autoplay_list">
+                        <li><a href="javascript:;" data-default="1" title="手动播放">手动播放</a></li>
+                        <li><a href="javascript:;" data-sec="10" title="10秒/张">10秒/张</a></li>
+                        <li><a href="javascript:;" data-sec="8" title="8秒/张">8秒/张</a></li>
+                        <li><a href="javascript:;" data-sec="6" title="6秒/张">6秒/张</a></li>
+                        <li><a href="javascript:;" data-sec="4" title="4秒/张">4秒/张</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="lb_footer" id="lbFooter"></div>
+    </div>
+    
+    <div class="lb_sidebar">
+        <a class="lb_sidebar_toggle lb_sidebar_toggle_left" href="#" id="lbSidebarToggle"><span></span></a>
+        <div class="lb_sidebar_box">
+            <div class="news_box" id="newsBox">
+                <div class="news_info">
+                    <div class="news_page"><span class="lb_page_current">0</span>/<span class="lb_page_total">1</span></div> 
+                    <div class="news_time" id="newsTime"></div>
+                </div>
+                
+                <div class="news_desc" id="newsDesc"></div>
+                
+                <div class="news_refer">来源：<a target="_blank" href="#" id="newsRefer"></a></div>
+                
+                <!-- 旅游频道广告位 -->
+                <div class="sidebar_gg" id="sidebarGG"><a href=" http://360.taikang.com/fcb/index.jsp?wt_mc=360daohang_tupian_tupianyoushuoming" target="_blank"><img src="http://p1.qhimg.com/t01c39d01cbaf4350c4.png" width="240" height="150"></a></div>
+                
+                            </div>
+            
+            <div class="show_box" id="showBox">
+                <dl id="showList"></dl>
+                <a href="#" class="show_link" id="showLink" target="_blank">和她视频聊天</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tips_404" id="tips404">
+    <h6>404</h6>
+    <p>很抱歉，暂时无法找到你需要的内容</p>
+</div><!-- 组图推荐 -->
+
+
+<div class="end_layer" id="endLayer"> 
+    <div class="end_overlay"></div>          
+    <div class="end_wrapper clearfix"> 
+        <a href="#" id="review" class="review">重新浏览</a>
+        <div class="end_loading" id="endLoading"></div>
+        <div class="next_group" id="nextGroup"> 
+            <h3>下一图集</h3> 
+            <p class="img_box"><a href="#" id="nextGroupImgLink"></a></p> 
+            <p><a href="#" id="nextGroupTit"></a></p> 
+        </div> 
+        <div class="suggest_group"> 
+            <h3>相关图集推荐</h3> 
+            <ul id="suggestGroupList"></ul> 
+        </div> 
+    </div> 
+    <a href="#" class="btn_group_toggle btn_group_prev" id="btnGroupPrev" title="重新浏览该图集"><span>重新浏览该图集</span></a> 
+    <a href="#" class="btn_group_toggle btn_group_next" id="btnGroupNext" title="下一图集"><span>下一图集</span></a>        
+</div><!-- 发送到手机 -->
+
+
+<div class="m_download" id="mDownload">
+    <div class="close_box"><a href="#" class="btn_close" title="关闭窗口"></a></div>
+    <div class="qr_box">
+        <h6>你可以扫描二维码 :</h6>
+        <p><img src="http://p9.qhimg.com/t011f3c43f568d1d40f.png" class="qr_img" id="qrImg"></p>
+    </div>
+    <div class="zs_box">
+        <h6>也可以发送到手机 :</h6>
+        <a href="#" class="btn_download" id="btnMdownload">一键发送到手机</a>
+    </div>
+    <div class="morelink">
+        <ul>
+        	<li><a href="http://wallpaper.leidian.com/s?&q=%E7%BE%8E%E5%A5%B3&cate=tag&src=ts_flt" target="_blank">美女</a></li>
+        	<li><a href="http://wallpaper.leidian.com/s?&q=%E9%A3%8E%E6%99%AF&cate=tag&src=ts_flt" target="_blank">风景</a></li>
+        	<li><a href="http://wallpaper.leidian.com/s?&q=%E5%8A%A8%E6%BC%AB&cate=tag&src=ts_flt" target="_blank">动漫</a></li>
+        	<li><a href="http://wallpaper.leidian.com/s?&q=%E7%88%B1%E6%83%85&cate=tag&src=ts_flt" target="_blank">爱情</a></li>
+        	<li><a href="http://wallpaper.leidian.com/?src=ts_flt" target="_blank">更多手机壁纸&gt;&gt;</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="task_dialog task_success" id="taskSuccessDialog">
+    <div class="dg_head"><a href="javascript:;" title="关闭窗口" class="btn_close"></a></div>
+    <div class="dg_body">
+        <p>已完成“看图知天下”任务</p>
+        <p class="c_f60">+10经验值</p>
+    </div>
+    <div class="dg_footer">
+        <p>若安全卫士经验值未增加，注销安全卫士账号重新登录即可</p>
+    </div>
+</div>
+
+<div class="task_dialog task_failure" id="taskFailureDialog">
+    <div class="dg_head"><a href="javascript:;" title="关闭窗口" class="btn_close"></a></div>
+    <div class="dg_body">
+        <p>您的网络有异常，请您检查网络连接，点击 <a href="#" id="taskReLoad">重试</a>，再试一下吧</p>
+    </div>
+    <div class="dg_footer">
+        <p>如果您联网正常，点击“重试”无法完成任务，请您关闭此网页，在 安全卫士 - 个人中心 - 我的任务 中点击“看图知天下“，重新完成此任务。</p>
+    </div>
+</div>
+
+
+<div class="task_dialog task_failure" id="taskOfflineDialog">
+    <div class="dg_head"><a href="javascript:;" title="关闭窗口" class="btn_close"></a></div>
+    <div class="dg_body">
+        <p>您需要先登录360安全卫士才可以完成“看图知天下”任务</p>
+    </div>
+    <div class="dg_footer">
+        <p class="m_10">登录后，点击“看图知天下”任务立即去完成按钮，按任务提示操作，即可完成任务。</p>
+    </div>
+</div>
+
+<script>window.__src__ = "";window.__cid__ = '模特';window.__tid__ = '车模';</script><!-- 打点 -->
+
+<script src="http://s9.qhimg.com/static/4d48b11b54fb35ba/monitor.js" ></script>
+<script src="http://s8.qhimg.com/static/665fc41ad510d4e0/wpo/lib/page.js" ></script>
+<script src="http://s6.qhimg.com/static/f9bf55247b81b95c/lib/seed-jquery.js" data-main="http://s8.qhimg.com/static/81f19fcc7711c6b4/channel/lightbox_render.js" ></script>
+<script>TIME['R_END']=+new Date();
+page.setData({
+	pro: 'image.so', // 产品名称
+	pid: 'lightbox', // 页面ID
+	type: 'page' // type = [page|image|resource]
+});
+var pagePerf = page.collect(TIME, false, true);
+monitor.setConf("wpoUrl", "http://s.360.cn/sou/wpo.gif").log(pagePerf, "wpo");</script>
+</body>
+</html>

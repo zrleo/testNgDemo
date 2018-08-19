@@ -1,0 +1,43 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginSearchForum" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="key" Value="-7"/> 
+        <parameter Key="page" Value=""/> 		
+        <parameter Key="code" Value="12"/> 		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginSearchNotExistForum" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        <parameter Key="key" Value="7"/>
+        <parameter Key="page" Value=""/> 		
+        <parameter Key="code" Value="171"/> 		
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test03" Name="Test03SearchForumPageNotNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+		<parameter Key="key" Value="测试"/>	
+        <parameter Key="page" Value=""/> 		
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04SearchForumPageNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+		<parameter Key="key" Value="测试"/> 
+        <parameter Key="page" Value=""/> 		
+     </Parameters>
+    </StepParameter>	
+            
+</AllStepParameters>  

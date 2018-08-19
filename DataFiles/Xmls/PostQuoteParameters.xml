@@ -1,0 +1,64 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="action" Value="quote"/>
+        <parameter Key="tid" Value="7194005"/>
+        <parameter Key="fid" Value="335"/>
+        
+
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test02" Name="Test02LoginRandTid" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="quote"/>
+        <parameter Key="latitude" Value="40"/>
+        <parameter Key="longitude" Value="116"/>
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test03" Name="Test03StableContent" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="action" Value="quote"/>
+        <parameter Key="content" Value="iei38s8399e0"/>
+        <parameter Key="tid" Value="7194012"/>
+        <parameter Key="pid" Value="134080884"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="address" Value="40,116,北京市Array"/>
+        
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test04" Name="Test04AddressNotNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="-7"/>
+        <parameter Key="action" Value="quote"/>
+        <parameter Key="address" Value="116,40"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test05" Name="Test05PostTimeout" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="tid" Value="7092325"/>
+        <parameter Key="action" Value="quote"/>
+        <parameter Key="address" Value="116,40"/>
+        <parameter Key="code" Value="42"/>
+        <parameter Key="msg" Value="主题发布时间超过限制"/>
+     </Parameters>
+    </StepParameter>  
+</AllStepParameters>  

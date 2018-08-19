@@ -1,0 +1,45 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginDelBlock" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>	
+        <parameter Key="msg" Value="未登录"/>		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginDelBlockList" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        	
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test03" Name="Test03DelNotExistBlock" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        <parameter Key="uid" Value="25964566"/>	 		
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04DelSameBlockTwice" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>  	 		
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05DelDiffBlockMore" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>  	 		
+     </Parameters>
+    </StepParameter>	
+            
+</AllStepParameters>  

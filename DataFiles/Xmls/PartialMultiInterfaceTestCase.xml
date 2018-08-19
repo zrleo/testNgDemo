@@ -1,0 +1,85 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.main.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01" Name="Test01">
+        <Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test01"/>  
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test06"/> 
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test19"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test09"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test23"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test06"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test06"/>		
+    </TestCase>
+    <TestCase ID="Test02" Name="Test02">
+        <Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test01"/> 
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test07"/>  
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test15"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test10"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test19"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test05"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test06"/>     			
+    </TestCase>
+    <TestCase ID="Test03" Name="Test03">
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test01"/>  
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test06"/> 
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test20"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test11"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test24"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test04"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test07"/>   			
+    </TestCase>
+    <TestCase ID="Test04" Name="Test04">
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test01"/> 
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test07"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test16"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test12"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test20"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test03"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test07"/>  			
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05">
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test03"/>  
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test09"/> 
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test21"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test09"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test25"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test06"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test06"/>    			
+    </TestCase>
+    <TestCase ID="Test06" Name="Test06">
+        <Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test03"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test08"/> 
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test17"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test10"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test21"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test05"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test06"/>               
+    </TestCase>
+    <TestCase ID="Test07" Name="Test07">
+        <Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test03"/>  
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test09"/> 
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test22"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test11"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostBroadcastParameters.xml" StepParameterID="Test26"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test04"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test07"/>             
+    </TestCase>
+    <TestCase ID="Test08" Name="Test08">
+        <Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="checkLive" StepGroup="CheckLiveSteps" StepParametersFilePath="CheckLiveParameters.xml" StepParameterID="Test03"/>   
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test08"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test18"/>
+        <Step StepName="delComment" StepGroup="DelCommentSteps" StepParametersFilePath="DelCommentParameters.xml" StepParameterID="Test12"/>
+        <Step StepName="postBroadcastReplyJustDeleted" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test22"/>
+        <Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckCommentParameters.xml" StepParameterID="Test03"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test07"/>               
+    </TestCase>
+</AllTestCases>

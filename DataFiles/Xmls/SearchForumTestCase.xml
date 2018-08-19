@@ -1,0 +1,25 @@
+<AllTestCases>
+	<StepParametersFilePath>SearchForumParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.forum.steps.</StepAssembly>
+    <StepGroup>SearchForumSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginSearchForum">
+	    <Step StepName="searchForum" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginSearchNotExistForum">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.main.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="searchForum" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03SearchForumPageNotNull">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.main.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+	    <Step StepName="searchForum" StepParameterID="Test03"/>
+       		
+    </TestCase>
+	<TestCase ID="Test04" Name="Test04SearchForumPageNull">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.main.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+	    <Step StepName="searchForum" StepParameterID="Test04"/>
+       		
+    </TestCase>
+    
+</AllTestCases>

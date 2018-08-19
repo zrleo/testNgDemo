@@ -1,0 +1,56 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/get_navs"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%fid" Value="335"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="gavInfo" Value="SELECT nav_id,title,type,update_time,redirect_fid,recommend,tid,url
+                   from live_nga_nav
+                   where fid='FID'
+                   ORDER BY sort desc,nav_id desc"/> 
+		<parameter Key="tidInfo" Value="select * from live_resource where tid='TID'"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test02" Name="Test02" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/get_navs"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%fid" Value="1"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="gavInfo" Value="SELECT nav_id,title,type,update_time,redirect_fid,recommend,tid,url
+                   from live_nga_nav
+                   where fid='FID'
+                   ORDER BY sort desc,nav_id desc"/>
+		<parameter Key="tidInfo" Value="select * from live_resource where tid='TID'"/>
+     </Parameters>
+    </StepParameter>   
+     <StepParameter ID="Test03" Name="Test03" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/get_navs"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%fid" Value="99999999"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="gavInfo" Value="SELECT nav_id,title,type,update_time,redirect_fid,recommend,tid,url
+                   from live_nga_nav
+                   where fid='FID'
+                   ORDER BY sort desc,nav_id desc"/>
+		<parameter Key="tidInfo" Value="select * from live_resource where tid='TID'"/>
+     </Parameters>
+    </StepParameter> 
+</AllStepParameters>  

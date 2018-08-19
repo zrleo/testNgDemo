@@ -1,0 +1,68 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01WowCharacterRemove_NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>  	
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02WowCharacterRemove_Login" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03WowCharacterRemove_NotExistCharacterId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        <parameter Key="wc_id" Value="6666"/>     
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04WowCharacterRemove_RangeOutCharacterId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        <parameter Key="wc_id" Value="0"/>     
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05WowCharacterRemove_NoNumberCharacterId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        <parameter Key="wc_id" Value="asd123"/>     
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test06" Name="Test06WowCharacterRemove_UserNoContainCharacterId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        <parameter Key="wc_id" Value="2"/>     
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test07" Name="Test07WowCharacterRemove_AddAfterRemove" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="realm_name" Value="风暴之怒"/>
+        <parameter Key="character_name" Value="好龙的小叶公"/>      
+     </Parameters>
+    </StepParameter>
+    
+    
+    
+            
+</AllStepParameters>  

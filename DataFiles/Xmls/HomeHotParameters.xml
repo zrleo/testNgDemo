@@ -1,0 +1,21 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginHomeHot" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginHomeHot" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>	
+        	
+     </Parameters>
+    </StepParameter>
+ 
+    
+            
+</AllStepParameters>  

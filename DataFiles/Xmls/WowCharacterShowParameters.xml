@@ -1,0 +1,51 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01WowCharacterShow_NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/>  	
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02WowCharacterShow_Login" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03WowCharacterShow_NotExistCharcterId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="wc_id" Value="asd123"/>  
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04WowCharacterShow_RangeoutCharacterId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="wc_id" Value="0"/>   
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05WowCharacterShow_NoNumberCharacterId" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>
+        <parameter Key="wc_id" Value="asd"/>    
+            
+     </Parameters>
+    </StepParameter>
+    
+    
+            
+</AllStepParameters>  

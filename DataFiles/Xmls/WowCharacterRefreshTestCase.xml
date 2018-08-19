@@ -1,0 +1,32 @@
+<AllTestCases>
+	<StepParametersFilePath>WowCharacterRefreshParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.wow.steps.</StepAssembly>
+    <StepGroup>WowCharacterRefreshSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01WowCharacterRefresh_NotLogin">
+	    <Step StepName="wowCharacterRefresh" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	 <TestCase ID="Test02" Name="Test02WowCharacterRefresh_Login">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="wowCharacterRefresh" StepParameterID="Test02"/>
+       		
+    </TestCase>
+    <TestCase ID="Test03" Name="Test03WowCharacterRefresh_NotExistCharcterId">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+      <Step StepName="wowCharacterRefresh" StepParameterID="Test03"/>
+          
+    </TestCase>
+    <TestCase ID="Test04" Name="Test04WowCharacterRefresh_RangeoutCharacterId">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+      <Step StepName="wowCharacterRefresh" StepParameterID="Test04"/>
+          
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05WowCharacterRefresh_NoNumberCharacterId">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+      <Step StepName="wowCharacterRefresh" StepParameterID="Test05"/>
+          
+    </TestCase>
+    
+	
+    
+</AllTestCases>

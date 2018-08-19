@@ -1,0 +1,191 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value="999259"/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="405"/>
+        <parameter Key="msg" Value="内容不存在"/>
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test02" Name="Test02deleteRandomBroadcast" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and type='1' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test03" Name="Test03deleteRandomComment" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and type='0' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test04" Name="Test04DeleteOtherBroadcast" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="419"/>
+        <parameter Key="msg" Value="只能删除自己发布的内容"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid not like 'UID' and type='1' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test05" Name="Test05DeleteOtherComment" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="419"/>
+        <parameter Key="msg" Value="只能删除自己发布的内容"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid not like 'UID' and type='0' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test06" Name="Test06" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and type='0' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test07" Name="Test07" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and type='1' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test08" Name="Test08" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="405"/>
+        <parameter Key="msg" Value="内容不存在"/>
+        <parameter Key="deleteTwice" Value=""/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test09" Name="Test09" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and rid='56' and cid not like '1620' and type='1' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test10" Name="Test10" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and rid='56' and cid not like '1620' and type='0' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter> 
+     <StepParameter ID="Test11" Name="Test11" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and rid='57' and cid not like '1621' and type='1' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter> 
+     <StepParameter ID="Test12" Name="Test12" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/del_comment"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%cid" Value=""/>
+        <parameter Key="%uid" Value=""/>
+        <parameter Key="%token" Value=""/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="randomCidInfo" Value="select cid,uid,nickname,type from live_comment where uid='UID' and rid='57' and cid not like '1621' and type='0' and `status` not like '3' and cid not like '254' and cid not like '260'"/>
+     </Parameters>
+    </StepParameter> 
+</AllStepParameters>  

@@ -1,0 +1,36 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginSubjectSubscription" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="ufid" Value="7"/> 
+		<parameter Key="fid" Value="463"/> 
+		<parameter Key="type" Value="1"/>  
+        <parameter Key="code" Value="1"/> 
+        <parameter Key="msg" Value="你必须先登录论坛"/>		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02AddSubscription" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        <parameter Key="ufid" Value="7"/> 
+		<parameter Key="fid" Value="476"/> 
+		<parameter Key="type" Value="1"/> 		
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test03" Name="Test03DelSubscription" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+		<parameter Key="ufid" Value="7"/> 
+		<parameter Key="fid" Value="476"/> 
+		<parameter Key="type" Value="2"/> 		
+     </Parameters>
+    </StepParameter>	
+            
+</AllStepParameters>  

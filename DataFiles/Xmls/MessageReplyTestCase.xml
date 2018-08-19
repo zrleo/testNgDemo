@@ -1,0 +1,45 @@
+<AllTestCases>
+	<StepParametersFilePath>MessageReplyParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.message.steps.</StepAssembly>
+    <StepGroup>MessageReplySteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginMessageSend">
+	    <Step StepName="messageReply" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginSubjectLong">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+		<Step StepName="messageList" StepGroup="MessageListSteps" StepParameterID="Test02"/>
+	    <Step StepName="messageReply" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03LoginsubjectOrContentShort">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+		<Step StepName="messageList" StepGroup="MessageListSteps" StepParameterID="Test03"/>
+	    <Step StepName="messageReply" StepParameterID="Test03"/>
+       		
+    </TestCase>
+	<TestCase ID="Test04" Name="Test04LoginSubjectOrContentNull">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+		<Step StepName="messageList" StepGroup="MessageListSteps" StepParameterID="Test04"/>
+	    <Step StepName="messageReply" StepParameterID="Test04"/>
+       		
+    </TestCase>
+	<TestCase ID="Test05" Name="Test05LoginContentLong">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+		<Step StepName="messageList" StepGroup="MessageListSteps" StepParameterID="Test05"/>
+	    <Step StepName="messageReply" StepParameterID="Test05"/>
+       		
+    </TestCase>
+	<TestCase ID="Test06" Name="Test06LoginFixedMid">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test06"/>
+	    <Step StepName="messageReply" StepParameterID="Test06"/>
+     		
+    </TestCase>
+	<TestCase ID="Test07" Name="Test07LoginRandomMid">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test07"/>
+		<Step StepName="messageList" StepGroup="MessageListSteps" StepParameterID="Test07"/>
+	    <Step StepName="messageReply" StepParameterID="Test07"/>
+     		
+    </TestCase>
+
+</AllTestCases>

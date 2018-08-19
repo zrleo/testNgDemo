@@ -1,0 +1,72 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginMessageReply" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+	    <parameter Key="mid" Value="266067"/>
+		<parameter Key="code" Value="12"/>
+		<parameter Key="msg" Value="未登录"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginSubjectLong" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="subject" Value="12324562910234567801234567890123456789012345678901234567890123456789012345678991023456780123456789012345678901234567890123456789012345678901234567899~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和heh"/>
+  	
+     </Parameters>
+	 </StepParameter>
+	 <StepParameter ID="Test03" Name="Test03LoginsubjectOrContentShort" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>	
+        <parameter Key="subject" Value="1"/>
+		<parameter Key="content" Value="1234"/>
+	
+
+     </Parameters>
+	 </StepParameter>
+	 <StepParameter ID="Test04" Name="Test04LoginSubjectOrContentNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="subject" Value=""/>
+        <parameter Key="content" Value=""/>	
+		
+      			
+     </Parameters>
+	 </StepParameter>
+	<StepParameter ID="Test05" Name="Test05LoginContentLong" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+		<parameter Key="password" Value="123456q"/>
+        <parameter Key="content" Value="12324562910234567801234567890123456789012345678901234567890123456789012345678991023456780123456789012345678901234567890123456789012345678901234567899~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和9~!@#$%^&amp;*()_+{}:;'\,./、。，；‘【】-=|?`/哈哈和heh"/>		
+     </Parameters>
+    </StepParameter>
+	<StepParameter ID="Test06" Name="Test06LoginFixedMid" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+		<parameter Key="did" Value="266067"/>
+		
+     </Parameters>
+    </StepParameter>  
+   <StepParameter ID="Test07" Name="Test07LoginRandomMid" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+     </Parameters>
+    </StepParameter>	
+</AllStepParameters>  

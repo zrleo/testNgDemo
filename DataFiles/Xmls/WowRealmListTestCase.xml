@@ -1,0 +1,17 @@
+<AllTestCases>
+	<StepParametersFilePath>WowRealmListParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.wow.steps.</StepAssembly>
+    <StepGroup>WowRealmListSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01WowRealmList_NotLogin">
+	    <Step StepName="wowRealmList" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	 <TestCase ID="Test02" Name="Test02WowRealmList_Login">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="wowRealmList" StepParameterID="Test02"/>
+       		
+    </TestCase>
+    
+	
+    
+</AllTestCases>

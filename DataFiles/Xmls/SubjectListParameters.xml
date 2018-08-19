@@ -1,0 +1,36 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginSubjectList" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+		<parameter Key="fid" Value="463"/> 
+		<parameter Key="page" Value="1"/>
+        <parameter Key="recommond" Value="1"/>
+        <parameter Key="stid" Value="1"/>		
+        <parameter Key="code" Value="1"/> 
+        <parameter Key="msg" Value="你必须先登录论坛"/>		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginFixedFid" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+		<parameter Key="fid" Value="436"/> 
+		<parameter Key="page" Value="1"/>
+        <parameter Key="recommond" Value="1"/>
+        <parameter Key="stid" Value="1"/> 		
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test03" Name="Test03SubjectList" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>  
+		<parameter Key="fid" Value="335"/> 		
+     </Parameters>
+    </StepParameter>	
+            
+</AllStepParameters>  

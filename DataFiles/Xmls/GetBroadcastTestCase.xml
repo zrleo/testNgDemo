@@ -1,0 +1,24 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.live.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01get_broadcasts" Name="Test01get_broadcastsGet20Reverse">
+    	<Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02get_broadcasts" Name="Test02get_broadcastsGet10Reserve">
+    	<Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03get_broadcasts" Name="Test03get_broadcastsGet10PositiveSequence">
+    	<Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test04get_broadcasts" Name="Test04get_broadcastsGet10PositiveSequenceBelowSpecifiedCid">
+    	<Step StepName="getBroadcastsGreatSpecifiedCid" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+    <TestCase ID="Test05get_broadcasts" Name="Test05get_broadcastsGet10ReverseBelowSpecifiedCid">
+    	<Step StepName="getBroadcastsBelowSpecifiedCid" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test05"/>		
+    </TestCase>
+    <TestCase ID="Test06get_broadcasts" Name="Test06get_broadcastsLoginToGet10ReverseBelowSpecifiedCid">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.main.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="getBroadcastsBelowSpecifiedCid" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetBroadcastParameters.xml" StepParameterID="Test05"/>		
+    </TestCase>
+</AllTestCases>

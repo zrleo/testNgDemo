@@ -1,0 +1,231 @@
+[INFO ] [09:54:00] com.gateside.autotesting.Lib.common.SimpleLogger - Start create interface Excel Testcase class files
+[INFO ] [09:54:00] com.gateside.autotesting.Lib.common.SimpleLogger - Start create Interface XML Testcase class files
+[INFO ] [09:54:01] com.gateside.autotesting.Lib.common.SimpleLogger - Start create testng.xml files
+[INFO ] [09:56:46] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:56:46] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test01
+[INFO ] [09:56:46] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:56:46] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:56:46] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:56:46] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test01IStepsCaseManager
+[INFO ] [09:56:47] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:56:47] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest01
+[INFO ] [09:56:47] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:56:47] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:56:47] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:56:48] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":26228182,"access_token":"Y8kvnfcg34tuqq1aplldtkmoranuef8f","email":"791773873@qq.com","nickname":"vorbeiyu","real_email":"791773873@qq.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=26228182&jump=1"}}
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test02
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test02IStepsCaseManager
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest02
+[INFO ] [09:56:48] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:56:48] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:56:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:56:49] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":34095105,"access_token":"Y8kvjp01hgvidiaqgt7j0kl8lnv57hhc","email":"99876543211@qq.com","nickname":"pwrdtest1","real_email":"99876543211@qq.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=34095105&jump=1"}}
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test03
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test03IStepsCaseManager
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest03
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:56:49] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":34104552,"access_token":"Y8kvhhvpkqr00n066vigeuidaedf9bnr","email":"4587952456@qq.com","nickname":"pwrdtest3","real_email":"4587952456@qq.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=34104552&jump=1"}}
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test04
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test04IStepsCaseManager
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest04
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:56:49] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":37722910,"access_token":"Y8kvui880crvgvb1l7osrmv1nfa28vnh","email":"6V137fwMfp@163.com","nickname":"mCmCdD","real_email":"6V137fwMfp@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=37722910&jump=1"}}
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test05
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test05IStepsCaseManager
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest05
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [09:56:49] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":43058416,"access_token":"Y8kvqht5qrhc4dv8qjo163aj4tdr5n84","email":"YZkz0BWnYX@163.com","nickname":"SrKOXI","real_email":"YZkz0BWnYX@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=43058416&jump=1"}}
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest05
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:56:49] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:56:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:56:49] com.wanmei.mobile.iat.common.RequestHelper - {"code":8,"msg":"签名错误","time":1531619809,"ip":"58.30.51.2"}
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test01
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test01IStepsCaseManager
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest01
+[INFO ] [09:58:29] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:58:29] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:58:29] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:58:30] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":26228182,"access_token":"Y8kvtbb7u9h6if9ofg91t81ij4jaikvc","email":"791773873@qq.com","nickname":"vorbeiyu","real_email":"791773873@qq.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=26228182&jump=1"}}
+[INFO ] [09:59:15] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:59:15] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test01
+[INFO ] [09:59:15] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:59:15] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:59:15] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:59:15] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test01IStepsCaseManager
+[INFO ] [09:59:16] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:59:16] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest01
+[INFO ] [09:59:16] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:59:16] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:59:16] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:59:17] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":26228182,"access_token":"Y8kvp9666qfvj0v9dg9f8e9so6v3sogp","email":"791773873@qq.com","nickname":"vorbeiyu","real_email":"791773873@qq.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=26228182&jump=1"}}
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test02
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test02IStepsCaseManager
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest02
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:59:17] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":34095105,"access_token":"Y8kvipeclqs3pbq1hhpo1r9oi6v865of","email":"99876543211@qq.com","nickname":"pwrdtest1","real_email":"99876543211@qq.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=34095105&jump=1"}}
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test03
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test03IStepsCaseManager
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest03
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:59:17] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":34104552,"access_token":"Y8kvjge9pidnj89l6c3q1kt2ipov3g5k","email":"4587952456@qq.com","nickname":"pwrdtest3","real_email":"4587952456@qq.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=34104552&jump=1"}}
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test04
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test04IStepsCaseManager
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest04
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:59:17] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":37722910,"access_token":"Y8kvpahmtaqp9u9t8eta1lkm93hmr35o","email":"6V137fwMfp@163.com","nickname":"mCmCdD","real_email":"6V137fwMfp@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=37722910&jump=1"}}
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test05
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test05IStepsCaseManager
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest05
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [09:59:17] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [09:59:17] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [09:59:18] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":43058424,"access_token":"Y8kviprluoh0o3emujar3af65t6de5h9","email":"sJIWYGWAPb@163.com","nickname":"NJSywB","real_email":"sJIWYGWAPb@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=43058424&jump=1"}}
+[INFO ] [09:59:18] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [09:59:18] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest05
+[INFO ] [09:59:18] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [09:59:18] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [09:59:18] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [09:59:18] com.wanmei.mobile.iat.common.RequestHelper - {"code":8,"msg":"签名错误","time":1531619958,"ip":"58.30.51.2"}
+[INFO ] [10:01:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [10:01:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test05
+[INFO ] [10:01:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [10:01:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [10:01:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [10:01:48] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test05IStepsCaseManager
+[INFO ] [10:01:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [10:01:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest05
+[INFO ] [10:01:49] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [10:01:49] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [10:01:49] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [10:01:50] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":43058430,"access_token":"Y8kvopal37ei0pgdpb34lj6e4tpccmv7","email":"27EI9Bj9Ka@163.com","nickname":"GaM4EC","real_email":"27EI9Bj9Ka@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=43058430&jump=1"}}
+[INFO ] [10:01:50] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [10:01:50] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest05
+[INFO ] [10:01:50] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [10:01:50] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [10:01:50] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [10:01:50] com.wanmei.mobile.iat.common.RequestHelper - {"code":8,"msg":"签名错误","time":1531620110,"ip":"58.30.51.2"}
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test05
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/LoginTestCase.xml
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test05IStepsCaseManager
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest05
+[INFO ] [10:02:10] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [10:02:10] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [10:02:10] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [10:02:12] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":43058433,"access_token":"Y8kvlqn0192i78dk9a3b342g7257j8u4","email":"n7d0JzmD3Z@163.com","nickname":"tpKUcD","real_email":"n7d0JzmD3Z@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=43058433&jump=1"}}
+[INFO ] [10:02:12] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/LoginParameters.xml
+[INFO ] [10:02:12] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.LoginStepsloginTest05
+[INFO ] [10:02:12] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.LoginSteps
+[INFO ] [10:02:12] com.gateside.autotesting.Lib.common.ClassReflector - login
+[INFO ] [10:02:12] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - login
+[INFO ] [10:02:12] com.wanmei.mobile.iat.common.RequestHelper - {"code":8,"msg":"签名错误","time":1531620132,"ip":"58.30.51.2"}
+[INFO ] [10:14:05] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [10:14:05] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test01
+[INFO ] [10:14:05] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [10:14:05] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/RegistTestCase.xml
+[INFO ] [10:14:05] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [10:14:05] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test01IStepsCaseManager
+[INFO ] [10:14:06] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/RegistParameters.xml
+[INFO ] [10:14:06] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest01
+[INFO ] [10:14:06] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [10:14:06] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [10:14:06] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [10:14:08] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":43058455,"access_token":"Y8kvomgdr12r4i43j8qi4d49olsklo4g","email":"uTsNzRbOK9@163.com","nickname":"thRms3","real_email":"uTsNzRbOK9@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=43058455&jump=1"}}
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test02
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/RegistTestCase.xml
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test02IStepsCaseManager
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/RegistParameters.xml
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest02
+[INFO ] [10:14:09] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [10:14:09] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [10:14:09] com.wanmei.mobile.iat.common.RequestHelper - {"code":0,"result":{"uid":43058456,"access_token":"Y8kvusgvkfeogknl1auf8qgva838vchl","email":"kQju5P2n4z@163.com","nickname":"3V4YhO","real_email":"kQju5P2n4z@163.com","avatar":"https:\/\/bbs.ngacn.cc\/nuke.php?__lib=ucp&__act=get_avatar&uid=43058456&jump=1"}}
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test03
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/RegistTestCase.xml
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test03IStepsCaseManager
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/RegistParameters.xml
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest03
+[INFO ] [10:14:09] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [10:14:09] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [10:14:09] com.wanmei.mobile.iat.common.RequestHelper - {"code":1001,"msg":"email已被占用","time":1531620849,"ip":"58.30.51.2"}
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - *************************************************************
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Start executing case :Test04
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - preCleanup: run precleanup method
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - setGlobalConfig: set testcase file path as DataFiles/Xmls/RegistTestCase.xml
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executePreStep:
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - Test04IStepsCaseManager
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: set step parameter path as /Users/liuzunrui/Documents/dev/code/java/Nga_Maven/DataFiles/Xmls/RegistParameters.xml
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - executeCase: execute step:com.wanmei.mobile.iat.sdk.steps.RegisterStepsregisterTest04
+[INFO ] [10:14:09] com.gateside.autotesting.Lib.common.SimpleLogger - com.wanmei.mobile.iat.sdk.steps.RegisterSteps
+[INFO ] [10:14:09] com.gateside.autotesting.Lib.common.ClassReflector - register
+[INFO ] [10:14:09] com.gateside.autotesting.Gat.executor.InterfaceStepsExecutor - register
+[INFO ] [10:14:10] com.wanmei.mobile.iat.common.RequestHelper - {"code":1002,"msg":"昵称已被占用","time":1531620849,"ip":"58.30.51.2"}

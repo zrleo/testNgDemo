@@ -1,0 +1,8 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.main.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01create_resource" Name="Test01create_resource">
+    	<Step StepName="changeAvatar" StepGroup="ChangeAvatarSteps" StepParametersFilePath="CreateResourceParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+</AllTestCases>

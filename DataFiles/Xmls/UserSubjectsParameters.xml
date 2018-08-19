@@ -1,0 +1,57 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginUserSubjects" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+	    <parameter Key="uid" Value="26443717"/>	
+		<parameter Key="page" Value=""/>	
+		<parameter Key="fid" Value="335"/>	
+       		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginGetFixedUserSubjects" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="uid" Value="26443717"/>
+        <parameter Key="page" Value=""/>	
+		<parameter Key="fid" Value=""/>			
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03LoginGetRandomUserSubjects" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="page" Value=""/>	
+		<parameter Key="fid" Value="-7"/>		
+        	
+     </Parameters>
+    </StepParameter>	
+    <StepParameter ID="Test04" Name="Test04GetNotExistUser" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        <parameter Key="uid" Value="26443717888"/>
+        <parameter Key="code" Value="151"/>	
+        <parameter Key="msg" Value="没有更多内容"/>		
+     </Parameters>
+    </StepParameter>
+	<StepParameter ID="Test05" Name="Test05LoginGetRandomFid" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>	
+        	
+     </Parameters>
+	 </StepParameter>
+    
+            
+</AllStepParameters>  

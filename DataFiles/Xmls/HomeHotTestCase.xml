@@ -1,0 +1,16 @@
+<AllTestCases>
+	<StepParametersFilePath>HomeHotParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.forum.steps.</StepAssembly>
+    <StepGroup>HomeHotSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginHomeHot">
+	    <Step StepName="homeHot" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginHomeHot">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="homeHot" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	
+    
+</AllTestCases>

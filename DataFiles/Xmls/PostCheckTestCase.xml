@@ -1,0 +1,16 @@
+<AllTestCases>
+	<StepParametersFilePath>PostCheckParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.post.steps.</StepAssembly>
+    <StepGroup>PostCheckSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test01"/>
+    	<Step StepName="postCheck"  StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02create_resource" Name="Test02create_resource">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+    	<Step StepName="postCheck" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03NotLogin" Name="Test03NotLogin">
+        <Step StepName="postCheck" StepParameterID="Test03"/>       
+    </TestCase>
+</AllTestCases>

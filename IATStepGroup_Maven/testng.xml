@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.gateside.autotesting.generation.unittest.DelBlockTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowCharacterListTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.GetBroadcastTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.MessageDetailTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.AddFavorForumTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.AddBlockTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.HomeBannerrecmTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostTitletypeTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowRealmListTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostCommentTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.CreateResourceTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowCharacterShowTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.SubjectSubscriptionTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.SubjectListTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.DelCommentTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.HomeCategoryTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.GetCommentsTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.HomeHasnewTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.UserDetailTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.CheckBroadcastTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostCheckTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.DeleteFavorForumTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.CheckLiveTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.CheckCommentTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.LoginTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.HomeHotTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.MessageSendTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.HomeRecmthreadsTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostBroadcastTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.MessageReplyTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.SyncFavorForumTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PartialMultiInterfaceTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.GetNavsTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.UserReplysTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.UploadTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowCharacterAddTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.DifferentPeoplePostOrReplyTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.RegistTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.SearchForumTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowGuildRankingTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostListTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.BlockListTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowCharacterRefreshTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowCharacterRankingTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostQuoteTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowCharacterRemoveTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.WowRaidListTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostModifyTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.UserSubjectsTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.MessageListTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostReplyTestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PostNewTestCase"/>
+    </classes>
+  </test>
+</suite>

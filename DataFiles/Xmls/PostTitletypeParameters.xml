@@ -1,0 +1,30 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="fid" Value="-522679"/>
+        <parameter Key="code" Value="47"/>
+        <parameter Key="msg" Value="帐号权限不足"/>
+
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test02" Name="Test02LoginRandfid" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="wenly1208@163.com"/>
+        <parameter Key="password" Value="qwer1234"/>
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test03" Name="Test03StableFix" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+     </Parameters>
+    </StepParameter>  
+
+</AllStepParameters>  

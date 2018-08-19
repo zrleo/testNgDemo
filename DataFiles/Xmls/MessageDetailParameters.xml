@@ -1,0 +1,33 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginMessageDetail" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="page" Value=""/>
+		<parameter Key="code" Value="12"/>
+		<parameter Key="msg" Value="未登录"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginFixedDidPageNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>	
+        <parameter Key="did" Value="266067"/>		
+        <parameter Key="page" Value=""/> 	
+     </Parameters>
+	 </StepParameter>
+	 <StepParameter ID="Test03" Name="Test03LoginRandomDidPageNotNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>		
+     </Parameters>
+    </StepParameter>
+	
+ 
+    
+            
+</AllStepParameters>  

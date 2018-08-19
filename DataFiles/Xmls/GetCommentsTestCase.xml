@@ -1,0 +1,35 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.live.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01get_comments" Name="Test01get_comments">
+    	<Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02get_comments" Name="Test02get_comments">
+    	<Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03get_comments" Name="Test03get_commentsGet10PositiveSequence">
+    	<Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test04get_comments" Name="Test04get_commentsGet10PositiveSequenceBelowSpecifiedCid">
+    	<Step StepName="getBroadcastsGreatSpecifiedCid" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+    <TestCase ID="Test05get_comments" Name="Test05get_commentsGet10ReverseBelowSpecifiedCid">
+    	<Step StepName="getBroadcastsBelowSpecifiedCid" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test05"/>		
+    </TestCase>
+    <TestCase ID="Test06get_comments" Name="Test06get_commentsLoginToGet10ReverseBelowSpecifiedCid">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="getBroadcastsBelowSpecifiedCid" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test05"/>		
+    </TestCase>
+    <TestCase ID="Test07get_comments" Name="Test07get_commentsLoginToGet10ReverseCid">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test02"/>      
+    </TestCase>
+    <TestCase ID="Test08get_comments" Name="Test08get_commentsLoginToGet10ReverseCid">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="getBroadcastsAfterPost" StepGroup="GetBroadcastsSteps" StepParametersFilePath="GetCommentsParameters.xml" StepParameterID="Test08"/>      
+    </TestCase>
+</AllTestCases>

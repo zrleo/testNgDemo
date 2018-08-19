@@ -1,0 +1,36 @@
+<AllTestCases>
+	<StepParametersFilePath>PostListParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.post.steps.</StepAssembly>
+    <StepGroup>PostListSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLogin">
+	    <Step StepName="postList" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	  <TestCase ID="Test02" Name="Test02LoginPostList">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="postList" StepParameterID="Test02"/>
+       		
+    </TestCase>
+    <TestCase ID="Test03" Name="Test03LoginFixedTid">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+      <Step StepName="postList" StepParameterID="Test03"/>
+          
+    </TestCase>
+    <TestCase ID="Test04" Name="Test04PageMore">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+      <Step StepName="postList" StepParameterID="Test04"/>
+          
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05PidNotNull">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+      <Step StepName="postList" StepParameterID="Test05"/>
+          
+    </TestCase>
+    <TestCase ID="Test06UidNotNull" Name="Test06UidNotNull">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test06"/>  
+      <Step StepName="postList" StepParameterID="Test06"/>
+          
+    </TestCase>
+	
+     
+</AllTestCases>

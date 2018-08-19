@@ -1,0 +1,41 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.post.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01" Name="Test01UploadJpg">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02" Name="Test02UploadPng">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03" Name="Test03UploadBmpNotSupport">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="uploadNotSupportImage" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test04" Name="Test04UploadJpeg">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05UploadGif">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test05"/>		
+    </TestCase>
+    <TestCase ID="Test06" Name="Test06UploadPNG">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test06"/>		
+    </TestCase>
+    <TestCase ID="Test07" Name="Test07UploadJPG">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test07"/>		
+    </TestCase>
+    <TestCase ID="Test08" Name="Test08UploadJPEG">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test08"/>		
+    </TestCase>
+    <TestCase ID="Test09" Name="Test09UploadGIF">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test09"/>		
+    </TestCase>
+</AllTestCases>

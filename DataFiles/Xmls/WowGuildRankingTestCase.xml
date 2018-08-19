@@ -1,0 +1,52 @@
+<AllTestCases>
+	<StepParametersFilePath>WowGuildRankingParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.wow.steps.</StepAssembly>
+    <StepGroup>WowGuildRankingSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01WowGuildRanking_NotLogin">
+	    <Step StepName="wowGuildRanking" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	 <TestCase ID="Test02" Name="Test02WowGuildRanking_Login">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="wowGuildRanking" StepParameterID="Test02"/>
+       		
+    </TestCase>
+    <TestCase ID="Test03" Name="Test03WowGuildRanking_NotExistCharcter">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+      <Step StepName="wowGuildRanking" StepParameterID="Test03"/>
+          
+    </TestCase>
+    <TestCase ID="Test04" Name="Test04WowGuildRanking_RangeoutCharacter">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+      <Step StepName="wowGuildRanking" StepParameterID="Test04"/>
+          
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05WowGuildRanking_NoNumberCharacter">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+      <Step StepName="wowGuildRanking" StepParameterID="Test05"/>
+          
+    </TestCase>
+    <TestCase ID="Test06" Name="Test06WowGuildRanking_Page">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test06"/>
+      <Step StepName="wowGuildRanking" StepParameterID="Test06"/>
+          
+    </TestCase>
+    <TestCase ID="Test07" Name="Test07WowGuildRanking_NoExistBossId">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test07"/>
+      <Step StepName="wowGuildRanking" StepParameterID="Test07"/>
+          
+    </TestCase>
+    <TestCase ID="Test08" Name="Test08WowCharacterRanking_RealmIdNull">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test08"/>
+      <Step StepName="wowGuildRanking" StepParameterID="Test08"/>
+          
+    </TestCase>
+    <TestCase ID="Test09" Name="Test09WowGuildRanking_RankingTypeNull">
+      <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test09"/>
+      <Step StepName="wowGuildRanking" StepParameterID="Test09"/>
+          
+    </TestCase>
+    
+	
+    
+</AllTestCases>

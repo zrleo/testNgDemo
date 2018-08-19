@@ -1,0 +1,11 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.live.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01CheckBroadcast" Name="Test01CheckBroadcastNoUpdate">
+    	<Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckBroadcastParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02CheckBroadcast" Name="Test02CheckBroadcastWithMultiUpdate">
+    	<Step StepName="checkBroadcast" StepGroup="CheckBroadcastSteps" StepParametersFilePath="CheckBroadcastParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+</AllTestCases>

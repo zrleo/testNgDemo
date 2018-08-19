@@ -1,0 +1,23 @@
+<AllTestCases>
+	<StepParametersFilePath>MessageDetailParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.message.steps.</StepAssembly>
+    <StepGroup>MessageDetailSteps</StepGroup>
+    <TestCase ID="Test01" Name="Test01NotLoginMessageDetail">
+	    <Step StepName="messageDetail" StepParameterID="Test01"/>
+       		
+    </TestCase>
+	<TestCase ID="Test02" Name="Test02LoginFixedDidPageNull">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+	    <Step StepName="messageDetail" StepParameterID="Test02"/>
+       		
+    </TestCase>
+	<TestCase ID="Test03" Name="Test03LoginRandomDidPageNotNull">
+	    <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+		<Step StepName="messageList" StepGroup="MessageListSteps" StepParameterID="Test03"/>
+	    <Step StepName="messageDetail" StepParameterID="Test03"/>
+       		
+    </TestCase>
+
+	
+    
+</AllTestCases>

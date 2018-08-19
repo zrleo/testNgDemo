@@ -1,0 +1,44 @@
+<AllTestCases>
+	<StepParametersFilePath>PostModifyParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.post.steps.</StepAssembly>
+    <StepGroup>PostModifySteps</StepGroup>
+    <TestCase ID="Test01NotLogin" Name="Test01NotLogin">
+    	<Step StepName="postModify" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02LoginRandTid" Name="Test02LoginRandTid">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test02"/>
+        <Step StepName="getAddressList" StepGroup="GetAddressListSteps" StepParameterID="Test02"/>
+        <Step StepName="postCheck" StepGroup="PostCheckSteps" StepParameterID="Test02"/> 
+        <Step StepName="postNew" StepGroup="PostNewSteps" StepParameterID="Test02"/> 
+        <Step StepName="subjectList" StepGroup="SubjectListSteps" StepParameterID="Test02"/> 
+        <Step StepName="postList"  StepGroup="PostListSteps" StepParameterID="Test02"/>
+    	<Step StepName="postModify"  StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03StableContent" Name="Test03StableContent">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test03"/>
+    	<Step StepName="postModify" StepParameterID="Test03"/>	
+    
+    </TestCase>
+    <TestCase ID="Test04AddressNotNull" Name="Test04AddressNotNull">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test04"/>
+    	<Step StepName="postModify"  StepParameterID="Test04"/>
+
+    </TestCase>
+    <TestCase ID="Test05OnlyAuthorModify" Name="Test05OnlyAuthorModify">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test05"/>
+        <Step StepName="postModify"  StepParameterID="Test05"/>
+
+    </TestCase>
+    <TestCase ID="Test06ModifyAddress" Name="Test06ModifyAddress">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test06"/>
+        <Step StepName="postModify"  StepParameterID="Test06"/>
+
+    </TestCase>
+    <TestCase ID="Test07ModifyAuthorContent" Name="Test07ModifyAuthorContent">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParameterID="Test07"/>
+        <Step StepName="postModify"  StepParameterID="Test07"/>
+
+    </TestCase>
+  
+    
+</AllTestCases>

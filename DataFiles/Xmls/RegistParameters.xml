@@ -1,0 +1,33 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01FixedPassword" >
+	<ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="password" Value="123456q"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02Random" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+     </Parameters>
+    </StepParameter> 
+	<StepParameter ID="Test03" Name="Test03SameEmail" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+	    <parameter Key="email" Value="hdjshdjsj@qq.com"/>
+		<parameter Key="password" Value="123456q"/>
+		<parameter Key="code" Value="1001"/>
+     </Parameters>
+    </StepParameter> 
+	<StepParameter ID="Test04" Name="Test04SameNickname" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+	    <parameter Key="nickname" Value="ddddd"/>
+		<parameter Key="password" Value="123456q"/>
+		<parameter Key="code" Value="1002"/>
+     </Parameters>
+    </StepParameter> 
+</AllStepParameters>  

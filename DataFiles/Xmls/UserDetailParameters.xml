@@ -1,0 +1,51 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLoginUserDetail" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+	    <parameter Key="uid" Value="26443717"/>	
+       		
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02LoginGetFixedUserDetail" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="uid" Value="26443717"/>		
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03LoginGetRandomUserDetail" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        	
+     </Parameters>
+    </StepParameter>	
+    <StepParameter ID="Test04" Name="Test04GetNotExistUserDetail" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        <parameter Key="uid" Value="26443717888"/>
+        <parameter Key="code" Value="16"/>	
+        <parameter Key="msg" Value="用户不存在"/>		
+     </Parameters>
+    </StepParameter>
+	<StepParameter ID="Test05" Name="Test05UidNull" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/> 
+        <parameter Key="uid" Value=""/>	
+     </Parameters>
+    </StepParameter>
+    
+            
+</AllStepParameters>  

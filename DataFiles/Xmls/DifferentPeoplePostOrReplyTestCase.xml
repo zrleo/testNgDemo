@@ -1,0 +1,14 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.post.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01replyLandOwner" Name="Test01replyLandOwner">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="DifferentPeoplePostOrReplyParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test03"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="DifferentPeoplePostOrReplyParameters.xml" StepParameterID="Test01"/>		
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test04"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="DifferentPeoplePostOrReplyParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="getBroadcasts" StepGroup="GetBroadcastsSteps" StepParametersFilePath="DifferentPeoplePostOrReplyParameters.xml" StepParameterID="Test02"/>
+    </TestCase>
+</AllTestCases>

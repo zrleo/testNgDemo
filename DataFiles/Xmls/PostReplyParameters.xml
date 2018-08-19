@@ -1,0 +1,73 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="action" Value="reply"/>
+        <parameter Key="code" Value="12"/>
+        <parameter Key="msg" Value="未登录"/>
+
+
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test02" Name="Test02LoginRandTid" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="reply"/>
+        <parameter Key="latitude" Value="40"/>
+        <parameter Key="longitude" Value="116"/>
+     </Parameters>
+    </StepParameter>   
+    <StepParameter ID="Test03" Name="Test03StableContent" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="reply"/>
+        <parameter Key="content" Value="iei38s8399e0"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test04" Name="Test04AddressNotNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="fid" Value="335"/>
+        <parameter Key="action" Value="reply"/>
+        <parameter Key="address" Value="116,40"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test05" Name="Test05PostTimeout" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="tid" Value="7152551"/>
+        <parameter Key="action" Value="reply"/>
+        <parameter Key="address" Value="116,40"/>
+        <parameter Key="code" Value="42"/>
+        <parameter Key="msg" Value="主题发布时间超过限制"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test06" Name="Test06AccountReplyNoAuthority" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+        <parameter Key="tid" Value="6937929"/>
+        <parameter Key="action" Value="reply"/>
+        <parameter Key="address" Value="116,40"/>
+        <parameter Key="code" Value="61"/>
+        <parameter Key="msg" Value="你没有在这里发布回复的权限"/>
+     </Parameters>
+    </StepParameter> 
+</AllStepParameters>  

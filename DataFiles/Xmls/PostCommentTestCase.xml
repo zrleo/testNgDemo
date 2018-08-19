@@ -1,0 +1,93 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.post.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01replyLandOwner" Name="Test01LandOwnerReplyLandOwner">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02reply260" Name="Test02replyCid260">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03quote260" Name="Test03quoteCid260">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test04senstiveWord" Name="Test04PostSenstiveWord">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+    <TestCase ID="Test05" Name="Test05LorderQuoteLorder">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+    <TestCase ID="Test06" Name="Test06postSameContentBetweenDifferentPeople">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test03"/>
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test04"/>
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test04"/>		
+    </TestCase>
+     <TestCase ID="Test07" Name="Test07postSameContentContinuous">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test03"/>
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test04"/>
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test03"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test03"/>	
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcastSameContentContinuous" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test05"/>	
+    </TestCase>
+    <TestCase ID="Test08" Name="Test08postSameContentNotContinuous">
+    	<Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test03"/>
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test04"/>
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test03"/>	
+    	<Step StepName="login" StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test02"/>
+    	<Step StepName="postBroadcast" StepGroup="PostBroadcastSteps"  StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test04"/>			
+    </TestCase>
+    <TestCase ID="Test015quoteLandOwnerUploadJpg" Name="Test015quoteLandOwnerUploadJpg">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test07QuoteLandOwnerUploadJpg"/>       
+    </TestCase>
+    <TestCase ID="Test16quoteLandOwnerUploadPng" Name="Test16quoteLandOwnerUploadPng">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test02"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test08QuoteLandOwnerUploadPng"/>       
+    </TestCase>
+    <TestCase ID="Test09quoteLandOwnerUploadJpeg" Name="Test09quoteLandOwnerUploadJpeg">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test04"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test09QuoteLandOwnerUploadPng"/>       
+    </TestCase>
+    <TestCase ID="Test10quoteLandOwnerUploadGif" Name="Test10quoteLandOwnerUploadGif">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test05"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test10QuoteLandOwnerUploadPng"/>       
+    </TestCase>
+    <TestCase ID="Test11QuoteLandOwnerUploadJPG" Name="Test11QuoteLandOwnerUploadJPG">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test07"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test11QuoteLandOwnerUploadJPG"/>       
+    </TestCase>
+    <TestCase ID="Test12QuoteLandOwnerUploadPNG" Name="Test12QuoteLandOwnerUploadPNG">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test06"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test12QuoteLandOwnerUploadPNG"/>       
+    </TestCase>
+    <TestCase ID="Test13QuoteLandOwnerUploadJPEG" Name="Test13QuoteLandOwnerUploadJPEG">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test08"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test13QuoteLandOwnerUploadJPEG"/>       
+    </TestCase>
+    <TestCase ID="Test14QuoteLandOwnerUploadGIF" Name="Test14QuoteLandOwnerUploadGIF">
+        <Step StepName="login" StepAssembly="com.wanmei.mobile.iat.sdk.steps." StepGroup="LoginSteps" StepParametersFilePath="LoginParameters.xml" StepParameterID="Test01"/>
+        <Step StepName="upload" StepGroup="UploadSteps" StepParametersFilePath="UploadParameters.xml" StepParameterID="Test09"/>
+        <Step StepName="postBroadcast" StepGroup="PostBroadcastSteps" StepParametersFilePath="PostCommentParameters.xml" StepParameterID="Test14QuoteLandOwnerUploadGIF"/>       
+    </TestCase>
+</AllTestCases>

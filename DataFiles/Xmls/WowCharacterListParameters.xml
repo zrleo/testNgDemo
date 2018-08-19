@@ -1,0 +1,64 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01WowCharacterList_NotLogin" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+       	<parameter Key="code" Value="12"/> 	
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02WowCharacterList_Login" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+        	
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test03" Name="Test03WowCharacterList_AddCharacter" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/>
+        <parameter Key="realm_name" Value="风暴之怒"/>
+        <parameter Key="character_name" Value="Marioo"/>    
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test04" Name="Test04WowCharacterList_ListNull" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testNOeh9E@test.com"/>    
+        <parameter Key="password" Value="asd123"/>   
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test05" Name="Test05WowCharacterList_RemoveCharacter" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testTHxrOI@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="wc_id" Value="12"/>   
+            
+     </Parameters>
+    </StepParameter>
+    <StepParameter ID="Test06" Name="Test06WowCharacterList_AddRemoveCharacter" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="testNOeh9E@test.com"/>    
+        <parameter Key="password" Value="asd123"/> 
+        <parameter Key="wc_id" Value="1"/> 
+        <parameter Key="realm_name" Value="风暴之怒"/>
+        <parameter Key="character_name" Value="给护十分"/>  
+            
+     </Parameters>
+    </StepParameter>
+    
+ 
+    
+            
+</AllStepParameters>  

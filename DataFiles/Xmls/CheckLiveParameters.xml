@@ -1,0 +1,41 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/check_live"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193332"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="live" Value="true"/>
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test02" Name="Test02" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/check_live"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="71932824578"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="live" Value="false"/>
+     </Parameters>
+    </StepParameter>  
+     <StepParameter ID="Test03" Name="Test03" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/check_live"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193333"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="live" Value="true"/>
+     </Parameters>
+    </StepParameter> 
+</AllStepParameters>  

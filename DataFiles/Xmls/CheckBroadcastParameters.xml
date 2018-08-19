@@ -1,0 +1,42 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01" >
+	  <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/check_broadcasts"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193283"/>
+        <parameter Key="%cid" Value="255"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="countCidInfo" Value="SELECT COUNT(h.cid)
+                   from (select c.rid,c.cid,c.uid,c.nickname,c.replycid,c.is_quote,c.create_time,c.`status` 
+                   from live_comment c
+                   join live_resource r
+                   on r.rid=c.rid
+                   where r.tid='TID' and c.cidCID and c.`status` not like '3' and c.type='1')h"/>
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test02" Name="Test02" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="url" Value="http://test.ngalive.178.com/api/check_broadcasts"/>
+        <parameter Key="httpMethod" Value="POST"/>
+        <parameter Key="%tid" Value="7193282"/>
+        <parameter Key="%cid" Value="254"/>
+        <parameter Key="%app_id" Value=""/>
+        <parameter Key="code" Value="0"/>
+        <parameter Key="msg" Value="成功"/>
+        <parameter Key="dburl" Value="nga_live"/>
+        <parameter Key="countCidInfo" Value="SELECT COUNT(h.cid)
+                   from (select c.rid,c.cid,c.uid,c.nickname,c.replycid,c.is_quote,c.create_time,c.`status` 
+                   from live_comment c
+                   join live_resource r
+                   on r.rid=c.rid
+                   where r.tid='TID' and c.cidCID and c.`status` not like '3' and c.type='1')h"/>
+     </Parameters>
+    </StepParameter>  
+</AllStepParameters>  

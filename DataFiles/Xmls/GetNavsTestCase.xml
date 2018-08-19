@@ -1,0 +1,14 @@
+<AllTestCases>
+	<StepParametersFilePath></StepParametersFilePath>
+    <StepAssembly>com.wanmei.mobile.iat.main.steps.</StepAssembly>
+    <StepGroup></StepGroup>
+    <TestCase ID="Test01get_navs" Name="Test01get_navsEmpty">
+    	<Step StepName="getNavs" StepGroup="GetNavsSteps" StepParametersFilePath="GetNavsParameters.xml" StepParameterID="Test01"/>		
+    </TestCase>
+    <TestCase ID="Test02get_navs" Name="Test02get_navsNotEmpty">
+    	<Step StepName="getNavs" StepGroup="GetNavsSteps" StepParametersFilePath="GetNavsParameters.xml" StepParameterID="Test02"/>		
+    </TestCase>
+    <TestCase ID="Test03get_navs" Name="Test03get_navsNotExist">
+    	<Step StepName="getNavs" StepGroup="GetNavsSteps" StepParametersFilePath="GetNavsParameters.xml" StepParameterID="Test03"/>		
+    </TestCase>
+</AllTestCases>

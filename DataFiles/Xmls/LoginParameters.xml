@@ -1,0 +1,41 @@
+<AllStepParameters>
+    <StepParameter ID="Test01" Name="Test01" >
+	 <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="791773873@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+     </Parameters>
+    </StepParameter>  
+    <StepParameter ID="Test02" Name="Test02" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="99876543211@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+     </Parameters>
+    </StepParameter>    
+    <StepParameter ID="Test03" Name="Test03" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="4587952456@qq.com"/>
+        <parameter Key="password" Value="123456q"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test04" Name="Test04" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="email" Value="6V137fwMfp@163.com"/>
+        <parameter Key="password" Value="123456q"/>
+     </Parameters>
+    </StepParameter> 
+    <StepParameter ID="Test05" Name="Test05" >
+      <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+     <Parameters>
+        <parameter Key="password" Value="123456q"/>
+     </Parameters>
+    </StepParameter> 
+</AllStepParameters>  
